@@ -78,13 +78,9 @@ article:nth-child(even) {
     background-color: rgba(135,193,237,0.3);
 }
 
-.first-news::before {
+article:nth-child(-n+2) h2::after {
     content: "New";
     color: red;
     font-size: small;
-}
-.second-news::before {
-    content: "New";
-    color: red;
-    font-size: small;
+    vertical-align: top;
 }
